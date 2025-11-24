@@ -1,0 +1,27 @@
+# 시스템 파일 및 설정
+.DS_Store
+.gitconfig
+.mysql_history
+.viminfo
+
+# 캐시, 로그, 개인 파일
+extcap.cfg
+preferences
+config.json
+daemon.json
+*.lock
+
+# 대용량 바이너리 라이브러리 파일
+*.dylib
+*.so
+*.dll
+
+# 기타 자주 무시되는 디렉토리
+node_modules/
+dist/
+build/
+
+# npm이 생성하는 로그 파일을 무시합니다.
+npm-debug.log
+yarn-debug.log
+yarn-error.log
