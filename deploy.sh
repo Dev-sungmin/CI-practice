@@ -1,5 +1,5 @@
 #!/bin/bash
-
-cd /var/lib/jenkins/backend
+cd /home/ubuntu/backend
+docker compose down
 docker compose pull
 docker compose up -d
